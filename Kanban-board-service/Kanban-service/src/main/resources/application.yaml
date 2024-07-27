@@ -1,0 +1,23 @@
+
+
+
+spring:
+  application:
+    name: kanban-service
+  datasource:
+    url: jdbc:postgresql://localhost:5555/Todo
+    username: postgres
+    password: Admin@123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 9005
+
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:9000/eureka/
